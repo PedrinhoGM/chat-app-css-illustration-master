@@ -4,6 +4,7 @@ body {
     height: 800px;
     width: 1440px;
     background-color: hsl(270, 20%, 96%);
+    overflow-x: hidden;
 }
 
 .container {
@@ -30,7 +31,7 @@ body {
     background-image: linear-gradient(to top, hsl(290, 42.9%, 97.3%),rgb(226, 224, 228));
     height: 700px;
     width: 350px;
-    border-radius: 400px 0px 0px 0px;
+    border-radius: 250px 0px 0px 0px;
     position: absolute;
     right: -10px;
     top: 115px;
@@ -43,7 +44,7 @@ body {
     height: 490px;
     width: 230px;
     position: relative;
-    top: 100px;
+    top: 150px;
     left: 350px;
 }
 
@@ -304,7 +305,7 @@ body {
 .introduction {
     width: 400px;
     position: relative;
-    bottom: 275px;
+    bottom: 200px;
     left: 750px;
 }
 
@@ -317,7 +318,7 @@ body {
 
 .intro {
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 500;
     color: hsl(271, 36.1%, 23.9%);
 }
 
@@ -331,7 +332,7 @@ a {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 410px){
+@media only screen and (max-width: 375px){
 
     body {
         position: absolute;
@@ -341,12 +342,12 @@ a {
         bottom: 0;
         margin: 0 auto;
         height: 936px;
-        width: 410px;
+        width: 375px;
     }
 
     .container {
         height: 936px;
-        width: 410px;
+        width: 375px;
         background-color:  hsl(270, 20%, 96%);
         position: absolute;
         top: 0;
@@ -355,27 +356,25 @@ a {
         bottom: 0;
     }
 
+    .smartphone {
+        position: relative;
+        top: 100px;
+        left: 60px;
+    }
+
     .purple-marker {
         background-image: linear-gradient(to top right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
         height: 500px;
-        width: 250px;
+        width: 265px;
         border-radius: 0px 0px 400px 0px;
-        left: -1px;
     }
 
     .grey-marker{
-        background-image: linear-gradient(to top left, hsl(290, 42.9%, 97.3%),rgb(226, 224, 228));
+        background-image: linear-gradient(to top, hsl(290, 42.9%, 97.3%),rgb(226, 224, 228));
         height: 300px;
         width: 215px;
-        border-radius: 400px 0px 0px 0px;
+        border-radius: 250px 0px 0px 0px;
         margin-top: 350px;
-        right: -60px;
-    }
-
-    .smartphone {
-        position: relative;
-        left: 5px;
-        margin: 0 auto;
     }
 
     .introduction {
