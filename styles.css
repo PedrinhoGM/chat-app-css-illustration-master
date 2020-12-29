@@ -331,7 +331,7 @@ a {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 375px){
 
     body {
         position: absolute;
@@ -341,12 +341,12 @@ a {
         bottom: 0;
         margin: 0 auto;
         height: 936px;
-        width: 400px;
+        width: 375px;
     }
 
     .container {
         height: 936px;
-        width: 400px;
+        width: 375px;
         background-color:  hsl(270, 20%, 96%);
         position: absolute;
         top: 0;
